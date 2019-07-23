@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#357899"
+            android:text="四级列表"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_jd"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#357899"
+            android:text="仿京东"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</layout>
